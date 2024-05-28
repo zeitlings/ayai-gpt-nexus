@@ -5,7 +5,8 @@ With support for third party __proxies__ and __local language models__.
 
 ---
 
-> [!NOTE] This is a preview version (alpha) of the workflow.
+> [!NOTE] 
+> This is a preview version (alpha) of the workflow.
 ---
 
 ## B. Usage
