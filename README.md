@@ -36,7 +36,10 @@ With support for third party __proxies__ and __local language models__.
 * __Hidden Options__
   - <kbd>⇧⌥⏎</kbd> to show configuration info in HUD
   - <kbd>⇧⌃⏎</kbd> to __speak__ the last answer out loud
-  - <kbd>⌘⇧⏎</kbd> to edit __multi-line prompt__ in separate window
+  - <kbd>⇧⌘⏎</kbd> to edit __multi-line prompt__ in separate window
+    * <kbd>⇧</kbd><kbd>↩</kbd> to switch between Editor / Markdown preview
+    * <kbd>⌘</kbd><kbd>↩</kbd> to ask the question.
+    * <kbd>⇧⌘⏎</kbd> to start a new conversation.
 
 ### Chat History
 
