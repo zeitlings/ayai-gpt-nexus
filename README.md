@@ -3,13 +3,17 @@
 __ChatGPT__, __Claude__, __Perplexity__, and __Gemini__ integrations for chat, information retrieval, and text processing tasks, such as paraphrasing, simplifying, or summarizing. 
 With support for third party __proxies__ and __local language models__.
 
+---
+
 > __Note:__ This is a preview version (alpha) of the workflow.
+
+---
 
 ## B. Usage
 
 ### Keyword
 
-![GPT Nexus keyword preview](assets/images/preview/keyword.png)
+<img src="assets/images/preview/keyword.png" width="564px"/>
 
 - <kbd>↩</kbd> to continue the ongoing chat.
 - <kbd>⌘</kbd><kbd>↩</kbd> to start a new conversation.
@@ -19,7 +23,8 @@ With support for third party __proxies__ and __local language models__.
 
 ### Chat Window
 
-![GPT Nexus chat and web search preview](assets/images/preview/chat+websearch.png)
+<img src="assets/images/preview/chat+websearch.png" width="564px"/>
+
 
 - <kbd>↩</kbd> to ask a question.
 - <kbd>⌘</kbd><kbd>↩</kbd> to start a new conversation.
