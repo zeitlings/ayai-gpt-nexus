@@ -13,17 +13,18 @@ With support for third party __proxies__ and __local language models__.
 
 ### Keyword
 
-<img src="assets/images/preview/keyword.png" width="564px"/>
+<img src="assets/images/preview/keyword.png" width="550px"/>
 
 - <kbd>↩</kbd> to continue the ongoing chat.
 - <kbd>⌘</kbd><kbd>↩</kbd> to start a new conversation.
 - <kbd>⌥</kbd><kbd>↩</kbd> to view the chat history.
-- <kbd>⌘</kbd><kbd>⇧</kbd><kbd>↩</kbd> to open the workflow configuration __(hidden)__.
+* __Hidden Option__
+  - <kbd>⌘</kbd><kbd>⇧</kbd><kbd>↩</kbd> to open the workflow configuration __(hidden)__.
 
 
 ### Chat Window
 
-<img src="assets/images/preview/chat+websearch.png" width="564px"/>
+<img src="assets/images/preview/chat+websearch.png" width="550px"/>
 
 
 - <kbd>↩</kbd> to ask a question.
