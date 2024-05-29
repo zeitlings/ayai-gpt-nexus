@@ -19,7 +19,7 @@ With support for third party __proxies__ and __local language models__.
 - <kbd>⌘</kbd><kbd>↩</kbd> to start a new conversation.
 - <kbd>⌥</kbd><kbd>↩</kbd> to view the chat history.
 * __Hidden Option__
-  - <kbd>⌘</kbd><kbd>⇧</kbd><kbd>↩</kbd> to open the workflow configuration __(hidden)__.
+  - <kbd>⌘</kbd><kbd>⇧</kbd><kbd>↩</kbd> to open the workflow configuration.
 
 
 ### Chat Window
@@ -69,13 +69,13 @@ The *primary* configuration setting determines the service that is used for conv
 
 #### OpenAI Proxies[^1]
 
-If you wish to use a third party proxy, define the correlating `host`, `path`, `API key`, `model`, and if required the `url scheme` or `port` in the [environment variables](https://www.alfredapp.com/help/workflows/advanced/variables/#environment).
+If you want to use a third party proxy, define the correlating `host`, `path`, `API key`, `model`, and if required the `url scheme` or `port` in the [environment variables](https://www.alfredapp.com/help/workflows/advanced/variables/#environment).
 The variables are prefixed as alternatives to OpenAI, because *Ayai* expects the returned stream events and errors to mirror the shape of those returned by the OpenAI API.
 
 
 #### Local LM's[^2]
 
-If you wish to use a local language model, define the correlating `url scheme`, `host`, `port`, `path`, and if required the `model` in the [environment variables](https://www.alfredapp.com/help/workflows/advanced/variables/#environment) to establish a connection to the local HTTP initiated and maintained by the method of your choice.
+If you want to use a local language model, define the correlating `url scheme`, `host`, `port`, `path`, and if required the `model` in the [environment variables](https://www.alfredapp.com/help/workflows/advanced/variables/#environment) to establish a connection to the local HTTP initiated and maintained by the method of your choice.
 The variables are prefixed as alternatives to OpenAI, because *Ayai* expects the returned stream events and errors to mirror the shape of those returned by the OpenAI API.
 
 
