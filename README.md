@@ -6,7 +6,7 @@ With support for third party __proxies__ and __local LLMs__.
 ---
 
 > [!NOTE] 
-> This is a preview version (alpha) of the workflow. You can download it here: [Ayai · GPT Nexus](https://github.com/zeitlings/ayai-gpt-nexus/releases/latest)
+> This is a preview version (alpha) of the workflow. __You can download it here:__ [Ayai · GPT Nexus](https://github.com/zeitlings/ayai-gpt-nexus/releases/latest)
 ---
 
 ## B. Usage
