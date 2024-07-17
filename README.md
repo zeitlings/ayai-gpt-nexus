@@ -10,6 +10,15 @@ With support for third party __proxies__ and __local LLMs__.
 > This is an alpha preview version of the workflow. __You can download it here__: [Ayai · GPT Nexus](https://github.com/zeitlings/ayai-gpt-nexus/releases/latest)
 ---
 
+## A. Setup
+
+1. Define keyboard shortcuts to quickly view the current chat and the archive.
+* e.g. <kbd>⌥⇧A</kbd> and <kbd>⌘⇧A</kbd>  (*optional*).
+2. Install the [SF Pro](https://developer.apple.com/fonts/) font from Apple to display icons.
+3. Enter your API keys for the services you want to use.
+4. Configure your proxy or local host settings in the [Environment Variables](https://www.alfredapp.com/help/workflows/advanced/variables/#environment)  (*optional*).
+* See example configurations in the [wiki](/zeitlings/ayai-gpt-nexus/wiki).
+
 ## B. Usage
 
 ### Keyword
@@ -44,11 +53,16 @@ With support for third party __proxies__ and __local LLMs__.
 
 ### Chat History
 
+<img src="assets/images/preview/history.png" width="550px"/>
+
 - Type to filter archived chats based on your query.
-- <kbd>↩</kbd> to continue previous chat.
+- <kbd>↩</kbd> to continue the selected chat.
 - <kbd>⌥</kbd> to view the modification date.
-- <kbd>⌘</kbd><kbd>L</kbd> to inspect the unabridged preview as [large type](https://www.alfredapp.com/help/features/large-type/).
+- <kbd>⌘</kbd><kbd>↩</kbd> to reveal the chat file in Finder.
+- <kbd>⌘</kbd><kbd>L</kbd> to inspect the unabridged preview as [Large Type](https://www.alfredapp.com/help/features/large-type/).
 - <kbd>⌘</kbd><kbd>⇧</kbd><kbd>↩</kbd> to send the conversation to the trash.
+
+
 
 ## C. Prompting
 
