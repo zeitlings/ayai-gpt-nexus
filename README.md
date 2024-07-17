@@ -17,7 +17,7 @@ With support for third party __proxies__ and __local LLMs__.
 2. Install the [SF Pro](https://developer.apple.com/fonts/) font from Apple to display icons.
 3. Enter your API keys for the services you want to use.
 4. Configure your proxy or local host settings in the [Environment Variables](https://www.alfredapp.com/help/workflows/advanced/variables/#environment)  (*optional*).
-* See example configurations in the [wiki](/zeitlings/ayai-gpt-nexus/wiki).
+* See example configurations in the [wiki](https://github.com/zeitlings/ayai-gpt-nexus/wiki).
 
 ## B. Usage
 
