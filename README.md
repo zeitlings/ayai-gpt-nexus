@@ -1,70 +1,89 @@
 
 <p align="center"><img src="assets/images/header.png" width="600px"></p>
 
-__ChatGPT__, __Claude__, __Perplexity__, and __Gemini__ integrations for chat, information retrieval, and text processing tasks, such as paraphrasing, simplifying, or summarizing. 
+__ChatGPT__, __Claude__, __Perplexity__, and __Gemini__ integrations for chat, real-time information retrieval, and text processing tasks, such as paraphrasing, simplifying, or summarizing. 
 With support for third party __proxies__ and __local LLMs__.
 
 ---
 
 > [!NOTE] 
-> This is an alpha preview version of the workflow. __You can download it here__: [Ayai · GPT Nexus](https://github.com/zeitlings/ayai-gpt-nexus/releases/latest)
+> This is an alpha preview version of the workflow.  
+> <a href="https://github.com/zeitlings/ayai-gpt-nexus/releases/latest"><img src="https://img.shields.io/github/v/release/zeitlings/ayai-gpt-nexus?logo=alfred&label=download" alt="GitHub Release"></a>
 ---
 
-## A. Setup
+## 1 / Setup
 
-1. Define keyboard shortcuts to quickly view the current chat and the archive.
-* e.g. <kbd>⌥⇧A</kbd> and <kbd>⌘⇧A</kbd>  (*optional*).
+1. Configure [Hotkeys](https://www.alfredapp.com/help/workflows/triggers/hotkey/) to quickly view the current chat, archive, and inference actions.
+* For instance <kbd>⌥⇧A</kbd>, <kbd>⌘⇧A</kbd>, and <kbd>⌥⇧I</kbd> (optional).
 2. Install the [SF Pro](https://developer.apple.com/fonts/) font from Apple to display icons.
 3. Enter your API keys for the services you want to use.
-4. Configure your proxy or local host settings in the [Environment Variables](https://www.alfredapp.com/help/workflows/advanced/variables/#environment)  (*optional*).
-* See example configurations in the [wiki](https://github.com/zeitlings/ayai-gpt-nexus/wiki).
+4. Configure your proxy or local host settings in the [Environment Variables](https://www.alfredapp.com/help/workflows/advanced/variables/#environment) (optional).
+* For example configurations see the [wiki](https://github.com/zeitlings/ayai-gpt-nexus/wiki).
 
-## B. Usage
+## 2 / Usage
 
-### Keyword
+### Ayai
+
+Converse with your __Primary__ via the `ask` keyword, [Universal Action](https://www.alfredapp.com/help/features/universal-actions/), or [Fallback Search](https://www.alfredapp.com/help/features/default-results/fallback-searches/). 
 
 <img src="assets/images/preview/keyword.png" width="550px"/>
 
-- <kbd>↩</kbd> to continue the ongoing chat.
-- <kbd>⌘</kbd><kbd>↩</kbd> to start a new conversation.
-- <kbd>⌥</kbd><kbd>↩</kbd> to view the chat history.
+- <kbd>↩</kbd> Continue the ongoing chat.
+- <kbd>⌘</kbd><kbd>↩</kbd> Start a new conversation.
+- <kbd>⌥</kbd><kbd>↩</kbd> View the chat history.
 * __Hidden Option__
-  - <kbd>⌘</kbd><kbd>⇧</kbd><kbd>↩</kbd> to open the workflow configuration.
+	- <kbd>⌘</kbd><kbd>⇧</kbd><kbd>↩</kbd> Open the workflow configuration.
 
 
-### Chat Window
+#### Chat Window
 
 <img src="assets/images/preview/chat+websearch.png" width="550px"/>
 
-
-- <kbd>↩</kbd> to ask a question.
-- <kbd>⌘</kbd><kbd>↩</kbd> to start a new conversation.
-- <kbd>⌥</kbd><kbd>↩</kbd> to copy the last answer.
-- <kbd>⌃</kbd><kbd>↩</kbd> to copy the full conversation.
-- <kbd>⇧</kbd><kbd>↩</kbd> to stop generating an answer.
+- <kbd>↩</kbd> Ask a question.
+- <kbd>⌘</kbd><kbd>↩</kbd> Start a new conversation.
+- <kbd>⌥</kbd><kbd>↩</kbd> Copy the last answer.
+- <kbd>⌃</kbd><kbd>↩</kbd> Copy the full conversation.
+- <kbd>⇧</kbd><kbd>↩</kbd> Stop generating an answer.
+- <kbd>⌘</kbd><kbd>⌃</kbd><kbd>↩</kbd> View the chat history.
 
 * __Hidden Options__
-  - <kbd>⇧⌥⏎</kbd> to show configuration info in HUD
-  - <kbd>⇧⌃⏎</kbd> to __speak__ the last answer out loud
-  - <kbd>⇧⌘⏎</kbd> to edit __multi-line prompt__ in separate window
-    * <kbd>⇧</kbd><kbd>↩</kbd> to switch between Editor / Markdown preview
-    * <kbd>⌘</kbd><kbd>↩</kbd> to ask the question.
-    * <kbd>⇧⌘⏎</kbd> to start a new conversation.
+	- <kbd>⇧⌥⏎</kbd> Show configuration info in HUD
+	- <kbd>⇧⌃⏎</kbd> __Speak__ the last answer out loud
+	- <kbd>⇧⌘⏎</kbd> Edit __multi-line prompt__ in separate window
+		* <kbd>⇧</kbd><kbd>↩</kbd> Switch to Editor / Markdown preview
+		* <kbd>⌘</kbd><kbd>↩</kbd> Ask the question.
+		* <kbd>⇧⌘⏎</kbd> Start a new conversation.
 
-### Chat History
+#### Chat History
 
 <img src="assets/images/preview/history.png" width="550px"/>
 
 - Type to filter archived chats based on your query.
-- <kbd>↩</kbd> to continue the selected chat.
-- <kbd>⌥</kbd> to view the modification date.
-- <kbd>⌘</kbd><kbd>↩</kbd> to reveal the chat file in Finder.
-- <kbd>⌘</kbd><kbd>L</kbd> to inspect the unabridged preview as [Large Type](https://www.alfredapp.com/help/features/large-type/).
-- <kbd>⌘</kbd><kbd>⇧</kbd><kbd>↩</kbd> to send the conversation to the trash.
+- <kbd>↩</kbd> Continue archived chat.
+- <kbd>⌥</kbd> View the modification date.
+- <kbd>⌘</kbd><kbd>↩</kbd> Reveal the chat file in Finder.
+- <kbd>⌘</kbd><kbd>L</kbd> Inspect the unabridged preview as [Large Type](https://www.alfredapp.com/help/features/large-type/).
+- <kbd>⌘</kbd><kbd>⇧</kbd><kbd>↩</kbd> Send conversation to the trash.
+
+
+### Inference Actions¹
+
+> Inference Actions provide a suite of language tools for text generation and transformation. These tools enable summarization, clarification, concise writing, and tone adjustment for selected text. They can also correct spelling, expand and paraphrase text, follow instructions, answer questions, and improve text in other ways. 
+
+Access a list of all available actions via the [Universal Action](https://www.alfredapp.com/help/features/universal-actions/) or by setting the [Hotkey](https://www.alfredapp.com/help/workflows/triggers/hotkey/) trigger.
+
+<img src="assets/images/preview/universal-action.png" width="550px"/>
+
+<img src="assets/images/preview/generate.png" width="550px"/>
+
+- <kbd>↩</kbd> Generate the result using the configured default strategy.
+- <kbd>⌘</kbd><kbd>↩</kbd> __Paste__ the result and replace selection.
+- <kbd>⌥</kbd><kbd>↩</kbd> __Stream__ the result and preserve selection.
+- <kbd>⌃</kbd><kbd>↩</kbd> __Copy__ the result to clipboard.
 
 
 
-## C. Prompting
+## 3 / Prompting
 
 > A prompt is the text that you give the model to elicit, or "prompt," a relevant output. A prompt is usually in the form of a question or instructions.
 
@@ -82,17 +101,17 @@ With support for third party __proxies__ and __local LLMs__.
 
 The *primary* configuration setting determines the service that is used for conversations.
 
-#### OpenAI Proxies[^1]
+#### OpenAI Proxies[^2]
 
 If you want to use a third party proxy, define the correlating `host`, `path`, `API key`, `model`, and if required the `url scheme` or `port` in the [environment variables](https://www.alfredapp.com/help/workflows/advanced/variables/#environment).
 The variables are prefixed as alternatives to OpenAI, because *Ayai* expects the returned stream events and errors to mirror the shape of those returned by the OpenAI API.
 
 
-#### Local LM's[^2]
+#### Local LM's[^3]
 
 If you want to use a local language model, define the correlating `url scheme`, `host`, `port`, `path`, and if required the `model` in the [environment variables](https://www.alfredapp.com/help/workflows/advanced/variables/#environment) to establish a connection to the local HTTP initiated and maintained by the method of your choice.
 The variables are prefixed as alternatives to OpenAI, because *Ayai* expects the returned stream events and errors to mirror the shape of those returned by the OpenAI API.
 
-
-[^1]: Third party proxies such as [OpenRouter](https://openrouter.ai/), [Groq](https://groq.com/), [Fireworks](https://fireworks.ai/)  or [Together.ai](https://www.together.ai/)  
-[^2]: Local HTTP servers can be set up with interfaces such as [LM Studio](https://lmstudio.ai/) or [Ollama](https://ollama.com/)
+[^1]: *Ayai* will make sure that the frontmost application accepts text input before streaming or pasting, and will simply copy the result to the clipboard if it does not. This requires [accessibility access](https://support.apple.com/guide/mac-help/allow-accessibility-apps-to-access-your-mac-mh43185/mac), which you may need to grant in order to use inference actions.  
+[^2]: Third party proxies such as [OpenRouter](https://openrouter.ai/), [Groq](https://groq.com/), [Fireworks](https://fireworks.ai/)  or [Together.ai](https://www.together.ai/)  
+[^3]: Local HTTP servers can be set up with interfaces such as [LM Studio](https://lmstudio.ai/) or [Ollama](https://ollama.com/)
