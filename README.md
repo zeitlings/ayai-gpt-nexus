@@ -94,7 +94,7 @@ Access a list of all available actions via the [Universal Action](https://www.al
 - [Anthropic prompt engineering guide](https://docs.anthropic.com/en/docs/prompt-engineering) | [Prompt Gallery](https://docs.anthropic.com/en/prompt-library/library) 
 - [Google AI prompt engineering guide](https://ai.google.dev/gemini-api/docs/prompting-intro) | [Prompt Gallery](https://ai.google.dev/gemini-api/prompts)
 
-## D. Configuration
+## 4 / Configuration
 
 
 ### Primary 
@@ -111,6 +111,9 @@ The variables are prefixed as alternatives to OpenAI, because *Ayai* expects the
 
 If you want to use a local language model, define the correlating `url scheme`, `host`, `port`, `path`, and if required the `model` in the [environment variables](https://www.alfredapp.com/help/workflows/advanced/variables/#environment) to establish a connection to the local HTTP initiated and maintained by the method of your choice.
 The variables are prefixed as alternatives to OpenAI, because *Ayai* expects the returned stream events and errors to mirror the shape of those returned by the OpenAI API.
+
+__Note__: Additional stop sequences can be provided via the shared `finish_reasons` environment variable.
+
 
 [^1]: *Ayai* will make sure that the frontmost application accepts text input before streaming or pasting, and will simply copy the result to the clipboard if it does not. This requires [accessibility access](https://support.apple.com/guide/mac-help/allow-accessibility-apps-to-access-your-mac-mh43185/mac), which you may need to grant in order to use inference actions.  
 [^2]: Third party proxies such as [OpenRouter](https://openrouter.ai/), [Groq](https://groq.com/), [Fireworks](https://fireworks.ai/)  or [Together.ai](https://www.together.ai/)  
