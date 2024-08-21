@@ -66,7 +66,7 @@ Converse with your __Primary__ via the `ask` keyword, [Universal Action](https:/
 - <kbd>⌘</kbd><kbd>⇧</kbd><kbd>↩</kbd> Send conversation to the trash.
 
 
-### Inference Actions¹
+### Inference Actions[^1]
 
 > Inference Actions provide a suite of language tools for text generation and transformation. These tools enable summarization, clarification, concise writing, and tone adjustment for selected text. They can also correct spelling, expand and paraphrase text, follow instructions, answer questions, and improve text in other ways. 
 
