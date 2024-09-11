@@ -1,0 +1,64 @@
+{
+  "alfredtheme" : {
+    "result" : {
+      "textSpacing" : 8,
+      "subtext" : {
+        "size" : 12,
+        "colorSelected" : "#E7E7E7CA",
+        "font" : "System",
+        "color" : "#7C7C7CFF"
+      },
+      "shortcut" : {
+        "size" : 12,
+        "colorSelected" : "#7C7C7CFF",
+        "font" : "System Light",
+        "color" : "#7C7C7C7F"
+      },
+      "backgroundSelected" : "#212121FF",
+      "text" : {
+        "size" : 14,
+        "colorSelected" : "#ECECECFF",
+        "font" : "System",
+        "color" : "#ECECECFF"
+      },
+      "iconPaddingHorizontal" : 15,
+      "roundness" : 17,
+      "paddingVertical" : 5,
+      "iconSize" : 30
+    },
+    "search" : {
+      "backgroundSelected" : "#B0D3FAFF",
+      "paddingHorizontal" : 18,
+      "spacing" : 8,
+      "text" : {
+        "size" : 20,
+        "colorSelected" : "#3A5576FF",
+        "font" : "Test Söhne Buch",
+        "color" : "#F4F4F4FF"
+      },
+      "background" : "#212121FF",
+      "roundness" : 17,
+      "paddingVertical" : 9
+    },
+    "window" : {
+      "color" : "#161616FF",
+      "paddingHorizontal" : 9,
+      "width" : 550,
+      "borderPadding" : 0,
+      "borderColor" : "#00000000",
+      "blur" : 0,
+      "roundness" : 17,
+      "paddingVertical" : 11
+    },
+    "credit" : "Patrick Sy",
+    "separator" : {
+      "color" : "#CBCBCB0D",
+      "thickness" : 0
+    },
+    "scrollbar" : {
+      "color" : "#494949FF",
+      "thickness" : 4
+    },
+    "name" : "Nexus Dark"
+  }
+}
