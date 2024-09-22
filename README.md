@@ -24,7 +24,7 @@ With support for third party __proxies__ and __local LLMs__.
 
 ### Ayai
 
-Converse with your __Primary__ via the `ask` keyword, [Universal Action](https://www.alfredapp.com/help/features/universal-actions/), or [Fallback Search](https://www.alfredapp.com/help/features/default-results/fallback-searches/). 
+Converse with your [__Primary__](#primary) via the `ask` keyword, [Universal Action](https://www.alfredapp.com/help/features/universal-actions/), or [Fallback Search](https://www.alfredapp.com/help/features/default-results/fallback-searches/). 
 
 <img src="assets/images/preview/keyword.png" width="550px"/>
 
@@ -81,7 +81,12 @@ Access a list of all available actions via the [Universal Action](https://www.al
 - <kbd>⌥</kbd><kbd>↩</kbd> __Stream__ the result and preserve selection.
 - <kbd>⌃</kbd><kbd>↩</kbd> __Copy__ the result to clipboard.
 
+#### Inference Action Customization
 
+The inference actions are generated from a JSON file called `actions.json`, located in the workflow folder. You can customize existing actions or add new ones by editing the file directly or by editing `actions.config.pkl` and then evaluating this file with [pkl](https://github.com/apple/pkl).
+
+> [!IMPORTANT] 
+> Always back up your customized Inference Actions before updating the workflow or your changes will be lost.
 
 ## 3 / Prompting
 
