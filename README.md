@@ -120,6 +120,6 @@ The variables are prefixed as alternatives to OpenAI, because *Ayai* expects the
 __Note__: Additional stop sequences can be provided via the shared `finish_reasons` environment variable.
 
 
-[^1]: *Ayai* will make sure that the frontmost application accepts text input before streaming or pasting, and will simply copy the result to the clipboard if it does not. This requires [accessibility access](https://support.apple.com/guide/mac-help/allow-accessibility-apps-to-access-your-mac-mh43185/mac), which you may need to grant in order to use inference actions.  
+[^1]: *Ayai* will make sure that the frontmost application accepts text input before streaming or pasting, and will simply copy the result to the clipboard if it does not. This requires [accessibility access](https://support.apple.com/guide/mac-help/allow-accessibility-apps-to-access-your-mac-mh43185/mac), which you may need to grant in order to use inference actions. To disable the safety check for specific applications, add the application's bundle identifier to the relevant [environment variable](https://www.alfredapp.com/help/workflows/advanced/variables/#environment).  
 [^2]: Third party proxies such as [OpenRouter](https://openrouter.ai/), [Groq](https://groq.com/), [Fireworks](https://fireworks.ai/)  or [Together.ai](https://www.together.ai/)  
 [^3]: Local HTTP servers can be set up with interfaces such as [LM Studio](https://lmstudio.ai/) or [Ollama](https://ollama.com/)
