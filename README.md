@@ -22,7 +22,7 @@ With support for third party __proxies__ and __local LLMs__.
 
 ## 2 / Usage
 
-### Ayai
+### Ayai Chat
 
 Converse with your [__Primary__](#primary) via the `ask` keyword, [Universal Action](https://www.alfredapp.com/help/features/universal-actions/), or [Fallback Search](https://www.alfredapp.com/help/features/default-results/fallback-searches/). 
 
