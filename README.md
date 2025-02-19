@@ -55,6 +55,11 @@ ____
 		* <kbd>⌘</kbd><kbd>↩</kbd> Ask the question.
 		* <kbd>⇧⌘⏎</kbd> Start a new conversation.
 
+
+__Sticky Preview example:__
+
+<img src="assets/images/preview/preview+sticky.png" width="550px"/>
+
 #### 2.1.2 Chat History
 
 <img src="assets/images/preview/history.png" width="550px"/>
@@ -68,6 +73,7 @@ ____
 - <kbd>⌘</kbd><kbd>↩</kbd> Reveal the chat file in Finder.
 - <kbd>⌘</kbd><kbd>L</kbd> Inspect the unabridged preview as [Large Type](https://www.alfredapp.com/help/features/large-type/).
 - <kbd>⌘</kbd><kbd>⇧</kbd><kbd>↩</kbd> Send conversation to the trash.
+
 
 ##### *!Bang* Filters
 
@@ -113,7 +119,6 @@ To extract text from docx-files, *Ayai* will use [pandoc](https://formulae.brew.
 
 
 <img src="assets/images/preview/files+document+keyword.png" width="550px" alt="File Attachments Attach Document Keyword Preview"/>
->
 
 - <kbd>↩</kbd> (or <kbd>⌘</kbd><kbd>↩</kbd>) Summarize and ask with optional prompt __starting new chat__.
 - <kbd>⌥</kbd><kbd>↩</kbd> Summarize and ask with optional prompt __continuing chat__.
